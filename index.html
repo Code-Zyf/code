@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .header {
+            background-color: #333;
+        }
+
+        .container {
+            width: 1226px;
+            margin: 0 auto;
+
+        }
+
+        .header a {
+            float: left;
+            color: #b0b0b0;
+            line-height: 40px;
+            display: inline-block;
+            font-size: 12px;
+            margin-right: 10px;
+
+        }
+
+        .header .account a:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        .header .menu a:hover {
+            color: white;
+        }
+
+        .header .account {
+            float: right;
+            color: #b0b0b0;
+            line-height: 40px;
+            display: inline-block;
+            font-size: 12px;
+        }
+
+        .sub_header {
+            height: 100px;
+            background-color: white;
+        }
+
+        .containers {
+            width: 1128px;
+            margin: 0 auto;
+
+        }
+
+        .sub_header .logo {
+            width: 234px;
+            height: 100px;
+            float: left;
+        }
+
+        .sub_header .logo a {
+            margin-top: 22px;
+            display: inline-block
+        }
+
+        .sub_header .logo a img {
+            height: 56px;
+            width: 56px;
+        }
+
+        .sub_header .menu_list {
+            line-height: 100px;
+            height: 100px;
+            float: left;
+
+        }
+
+        .sub_header .menu_list a {
+            padding: 8px;
+            display: inline-block;
+            float: left;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .sub_header .menu_list a:hover {
+            color: chocolate;
+        }
+
+        .sub_header .search {
+            height: 100px;
+            float: left;
+        }
+
+        .news .channel {
+            width: 234px;
+            height: 170px;
+            background-color: bisque;
+            padding: 3px;
+        }
+
+        .news .list-item img {
+            width: 300px;
+        }
+
+        .slider img {
+            width: 500px;
+        }
+
+        .c1 {
+            color: red;
+            font-size: 18px;
+            display: inline-block;
+            width: 234px;
+            height: 170px;
+
+        }
+
+        .c1 :hover .download {
+            color: aquamarine;
+            font-size: 50px;
+
+        }
+
+        .back {
+            position: fixed;
+            width: 80px;
+            height: 60px;
+            border: 1px solid #333;
+
+            right: 10px;
+            bottom: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="menu">
+                <a>预约代跑 </a>
+                <a>申请退出 </a>
+                <a>客服 </a>
+            </div>
+
+            <div class="account">
+                <a>登录</a>
+                <a>注册</a>
+                <a>消息通知</a>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="sub_header">
+        <div class="containers">
+            <div class="logo">
+                <a href=""><img src="image.png"></a>
+            </div>
+            <div class="menu_list">
+                <a href="">解压</a>
+                <a href="">小惊喜</a>
+                <a href="">特惠</a>
+            </div>
+            <div class="search"></div>
+        </div>
+        <div class="clear:both;"></div>
+    </div>
+    <div class="slider">
+        <div class="container">
+            <div class="sd_img">
+                <img src="ai.jpg" alt="ai">
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <div class="channel left download">
+                <div class="c1 left">特惠区域 点我获取</div>
+                <div class="list-item left">
+                    <img src="ai.jpg" alt="" style="margin-left: 15px;">
+                </div>
+                <div class="clear:both"></div>
+            </div>
+
+        </div>
+        <div class="back">返回顶部</div>
+</body>
+
+</html>
